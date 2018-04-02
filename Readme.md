@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Анастасия Наделяева](https://up.htmlacademy.ru/htmlcss/20/user/518103).
-* Наставник: [Анастасия Мигаева](https://htmlacademy.ru/profile/hatewait).
+* Наставник: Отсутствует
 
 ---
 
