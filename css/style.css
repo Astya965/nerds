@@ -24,10 +24,27 @@ img {
   list-style: none;
 }
 
-.nav-list a {
+.nav-list a,
+.cart a {
   color: #000000;
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
 }
+
+.nav-list a:hover,
+.nav-list a:focus,
+.cart a:hover,
+.cart a:focus {
+  color: #fb565a;
+}
+
+.nav-list a:active,
+.cart a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* !ВНИМАННИЕ Добавить псевдоэлемент для нахождения на странице */
+
+/*  */
