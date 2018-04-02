@@ -1,0 +1,199 @@
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нердс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="main-header">
+
+      <nav class="site-navigation">
+          <a class="main-header-logo">
+            <img src="img/logo.svg" width="168" height="65" alt="Логотип сайта мороженного Нердс">
+          </a>
+          <ul class="nav-list">
+            <li class="nav-list-element">
+              <a class="nav-list-link" href="#">Студия</a>
+            </li>
+            <li class="nav-list-element">
+              <a class="nav-list-link" href="#">Клиенты</a>
+            </li>
+            <li class="nav-list-element">
+              <a class="nav-list-link" href="#">Магазин</a>
+            </li>
+            <li class="nav-list-element">
+              <a class="nav-list-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="cart">
+          <a class="cart-link">Корзина</a>
+        </div>
+
+        <section class="main-slider">
+          <input class="wrapper-toggle visually-hidden" type="radio" id="wrapper-btn-1" name="toggle" checked>
+          <input class="wrapper-toggle visually-hidden" type="radio" id="wrapper-btn-2" name="toggle">
+          <input class="wrapper-toggle visually-hidden" type="radio" id="wrapper-btn-3" name="toggle">
+          <div class="slider-controls">
+            <label for="wrapper-btn-1"><span class="visually-hidden">Переключает на первое приемущество нашей студии: скропулезность</span></label>
+            <label for="wrapper-btn-2"><span class="visually-hidden">Переключает на второе приемущество нашей студии: математичность</span></label>
+            <label for="wrapper-btn-3"><span class="visually-hidden">Переключает на третье приемущество нашей студии: ночная разработка</span></label>
+          </div>
+          <ul class="slider-inner">
+            <li class="slider-item slide" id="slider-item-1">
+              <h3 class="slide-title">Долго, дорого, скрупулезно.</h3>
+              <p class="slide-description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+              <a class="button slider-button" href="#">Узнать больше</a>
+            </li>
+            <li class="slider-item slide" id="slider-item-2">
+              <h3 class="slide-title">Любим математику как никто другой</h3>
+              <p class="slide-description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+              <a class="button slider-button" href="#">Узнать больше</a>
+            </li>
+            <li class="slider-item slide" id="slider-item-3">
+              <h3 class="slide-title">Только ночь, только хардкор</h3>
+              <p class="slide-description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+              <a class="button slider-button" href="#">Узнать больше</a>
+            </li>
+          </ul>
+        </section>
+
+    </header>
+
+    <main class="main-content">
+
+      <section class="service-catalog">
+        <ul class="service-catalog-list">
+          <li class="service-catalog-item">
+            <img src="img/" width="300" height="146" alt="">
+            <h3 class="service-catalog-item-caption"></h3>
+            <p class="service-catalog-item-description"></p>
+            <a class="button"></a>
+          </li>
+          <li class="service-catalog-item">
+            <img src="img/" width="300" height="146" alt="">
+            <h3 class="service-catalog-item-caption"></h3>
+            <p class="service-catalog-item-description"></p>
+            <a class="button"></a>
+          </li>
+          <li class="service-catalog-item">
+            <img src="img/" width="300" height="146" alt="">
+            <h3 class="service-catalog-item-caption"></h3>
+            <p class="service-catalog-item-description"></p>
+            <a class="button"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="company-information">
+
+        <h2 class="company-caption">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+        <p class="company-description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+
+        <h3 class="company-features-caption">Выполняем заказы на разработку:</h3>
+        <ul class="company-features-list">
+          <li class="company-features-item"></li>
+          <li class="company-features-item"></li>
+          <li class="company-features-item"></li>
+        </ul>
+
+        <img src="img/" width="360" height="208" alt="">
+
+        <div class="company-statistics">
+          <h3 class="company-statistics-caption">С 2004 года Любим точность во всем:</h3>
+          <dl class="company-statistics-list">
+            <dt>146%</dt>
+            <dd>Уровень самоотдачи</dd>
+
+            <dt>100%</dt>
+            <dd>Соблюдение сроков</dd>
+
+            <dt>50%</dt>
+            <dd>Минимальная предоплата</dd>
+          </dl>
+        </div>
+
+      </section>
+
+      <section class="company-portfolio">
+
+        <ul class="company-portfolio-list">
+          <li class="company-portfolio-item">
+            <a class="company-portfolio-link">
+              <span class="visually-hidden">Сайт HTML Academy</span>
+              <!-- Тут будет svg -->
+            </a>
+          </li>
+          <li class="company-portfolio-item">
+            <a class="company-portfolio-link">
+              <span class="visually-hidden">Сайт Barbershop Borodinski</span>
+              <!-- Тут будет svg -->
+            </a>
+          </li>
+          <li class="company-portfolio-item">
+            <a class="company-portfolio-link">
+              <span class="visually-hidden">Сайт Pink</span>
+              <!-- Тут будет svg -->
+            </a>
+          </li>
+          <li class="company-portfolio-item">
+            <a class="company-portfolio-link">
+              <span class="visually-hidden">Сайт Mishka</span>
+              <!-- Тут будет svg -->
+            </a>
+          </li>
+        </ul>
+
+      </section>
+
+      <section class="company-contacts">
+
+        <div class="main-map-inner">
+          <div class="contacts">
+            <p class="contacts-description">Адрес главного офиса <br> и офлайн-магазина:<span class="contacts-info">ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
+            <p class="contacts-description">Для заказов по телефону:
+              <span class="contacts-info"><a class="link-tel" href="tel:+78124502525">8 812 450-25-25</a></span> (с 10 до 20 ежедневно)</p>
+            <a class="button js-button" href="writeus.html">Форма обратной связи</a>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="main-footer">
+
+      <div class="footer-social">
+        <ul class="social-list">
+          <li class="social-item vk">
+            <a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a>
+          </li>
+          <li class="social-item fb">
+            <a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a>
+          </li>
+          <li class="social-item">
+            <a class="social-button instagram" href="#"><span class="visually-hidden">Инстаграм</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-social-promo">
+        <h3 class="social-promo-caption">Давайте дружить, это выгодно!</h3>
+        <p class="social-promo-description">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
