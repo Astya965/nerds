@@ -21,6 +21,9 @@ img {
 /* Меню навигации */
 
 .nav-list {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -67,23 +70,40 @@ a.button {
 /* Слайдер */
 
 .slider-inner {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
-.slide-title {
+.slide-caption {
+  margin: 0;
+  padding: 0;
+
   color: #000000;
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
 }
 
+.slide-description {
+  margin: 0;
+  padding: 0;
+}
+
 /* Услуги компании */
 
 .service-catalog-list {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
 .service-catalog-item-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-size: 24px;
   font-weight: 700;
@@ -91,32 +111,57 @@ a.button {
   text-transform: uppercase;
 }
 
+.service-catalog-item-description {
+  margin: 0;
+  padding: 0;
+}
+
 /* Информация о комании */
 
 .company-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
 }
 
+.company-description {
+  margin: 0;
+  padding: 0;
+}
+
 .company-features-list {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
 .company-features-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .company-statistics-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .company-statistics-list {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -128,12 +173,27 @@ a.button {
 }
 
 .company-statistics-property {
+  margin: 0;
+  padding: 0;
+
   line-height: 18px;
+}
+
+/* Портфолио на главной */
+
+.company-portfolio-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
 /* Глобальные стили старницы каталога */
 
 .catalog-main-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-size: 55px;
   font-weight: 500;
@@ -147,10 +207,16 @@ a.button {
 }
 
 .filter-item {
+  margin:0;
+  padding: 0;
+
   border: 0;
 }
 
 .filter-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -183,6 +249,9 @@ a.button {
 /* Сортировка в каталоге */
 
 .sorting-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -191,6 +260,9 @@ a.button {
 
 .sorting-list-type,
 .sorting-list-direction {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -206,10 +278,16 @@ a.button {
 /* Каталог и карточки товаров */
 
 .main-catalog-list {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
 .main-catalog-item-caption {
+  margin:0;
+  padding: 0;
+
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -218,6 +296,9 @@ a.button {
 }
 
 .main-catalog-item-description {
+  margin: 0;
+  padding: 0;
+
   color: #666666;
   line-height: 18px;
 }
@@ -225,6 +306,9 @@ a.button {
 /* Пагинатор */
 
 .pagination-list {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -238,6 +322,9 @@ a.button {
 /* Карта и адрес компании */
 
 .contacts-caption {
+  margin: 0;
+  padding: 0;
+
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -246,6 +333,9 @@ a.button {
 }
 
 .contacts-description {
+  margin: 0;
+  padding: 0;
+
   color: #666666;
   line-height: 18px;
 }
@@ -257,10 +347,16 @@ a.button {
 /* Подвал */
 
 .social-list {
+  margin:0;
+  padding: 0;
+
   list-style: none;
 }
 
 .social-promo-caption {
+  margin: 0;
+  padding: 0;
+
   color: #000000;
   font-size: 36px;
   font-weight: 700;
@@ -268,6 +364,9 @@ a.button {
 }
 
 .social-promo-description {
+  margin: 0;
+  padding: 0;
+
   color: #444444;
   line-height: 22px;
 }
@@ -275,10 +374,18 @@ a.button {
 /* Модальное окно */
 
 .writeus-caption {
+  margin: 0;
+  padding: 0;
+
   color: #000000;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
+}
+
+.writeus-form {
+  margin: 0;
+  padding: 0;
 }
 
 .writeus-form .writeus-name {
