@@ -38,7 +38,7 @@
           <a class="cart-link">Корзина</a>
         </div>
 
-        <h1>Магазин готовых шаблонов</h1>
+        <h1 class="catalog-main-caption">Магазин готовых шаблонов</h1>
 
     </header>
 
@@ -51,7 +51,7 @@
           <h2 class="visually-hidden">Фитльр товаров:</h2>
 
           <fieldset class="filter-item">
-            <legend class="filter-caption">Стоимость:</legend>
+            <legend class="filter-caption filter-caption-price">Стоимость:</legend>
             <div class="price-filter-inner filter-item-inner">
               <div class="filter-line">
                 <div class="filter-active-line">
@@ -59,9 +59,9 @@
                 <div class="filter-ring ring-min"></div>
                 <div class="filter-ring ring-max"></div>
                 <div class="price-filter-counter">
-                  <label for="price-filter-min"></label>
+                  <label for="price-filter-min">От</label>
                   <input type="number" id="price-filter-min" name="price-filter-min" value="0" placeholder="0">
-                  <label for="price-filter-max"></label>
+                  <label for="price-filter-max">До</label>
                   <input type="number" id="price-filter-max" name="price-filter-max" value="15000" placeholder="15000">
                 </div>
               </div>
@@ -70,7 +70,7 @@
 
           <fieldset class="filter-item">
             <legend class="filter-caption">Сетка:</legend>
-            <input class="visually-hidden filter-toggle" type="radio" id="grid-0" name="grid-toggle" value="adaptive" checked>>
+            <input class="visually-hidden filter-toggle" type="radio" id="grid-0" name="grid-toggle" value="adaptive" checked>
             <label for="grid-adaptive">Адаптивная</label>
             <input class="visually-hidden filter-toggle" type="radio" id="grid-less10" name="grid-toggle" value="fix">
             <label for="grid-fix">Фиксированная</label>
@@ -84,7 +84,7 @@
             <label for="features-slider">Cлайдер</label>
             <input class="visually-hidden filter-checkbox" type="checkbox" id="features-features-block" name="features-checkbox" value="features-block">
             <label for="features-features-block">Блок приемуществ</label>
-            <input class="visually-hidden filter-checkbox" type="checkbox" id="features-new" name="features-checkbox" value="features-new" checked>>
+            <input class="visually-hidden filter-checkbox" type="checkbox" id="features-new" name="features-checkbox" value="features-new" checked>
             <label for="features-new">Новости</label>
             <input class="visually-hidden filter-checkbox" type="checkbox" id="features-gallery" name="features-checkbox" value="features-gallery">
             <label for="features-gallery">Галерея</label>
@@ -92,7 +92,7 @@
             <label for="features-cart">Корзина</label>
           </fieldset>
 
-          <button class="filter-button" type="submit">Применить</button>
+          <button class="filter-button button" type="submit">Применить</button>
 
         </form>
 
@@ -103,7 +103,7 @@
         <h2 class="sorting-caption">Сортировать:</h2>
 
         <ul class="sorting-list-type">
-          <li class="sorting-list-item">
+          <li class="sorting-list-item sorting-list-item-current">
             <a class="sorting-list-link" href="#">По цене</a>
           </li>
           <li class="sorting-list-item">
@@ -228,10 +228,10 @@
 
         <div class="main-map-inner">
           <div class="contacts">
-            <p class="contacts-description">Адрес главного офиса <br> и офлайн-магазина:<span class="contacts-info">ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
-            <p class="contacts-description">Для заказов по телефону:
-              <span class="contacts-info"><a class="link-tel" href="tel:+78124502525">8 812 450-25-25</a></span> (с 10 до 20 ежедневно)</p>
-            <a class="button js-button" href="writeus.html">Форма обратной связи</a>
+            <h3 class="contacts-caption">Nёrds design studio</h3>
+            <p class="contacts-description">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p class="contacts-description">><a class="link-tel" href="tel:+78124757575">тел. +7 (812) 275-75-75</a></p>
+            <a class="button js-button" href="writeus.html">Напишите нам</a>
           </div>
         </div>
 

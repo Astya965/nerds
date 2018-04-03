@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #323232;
+  color: #283136;
 }
 
 a {
@@ -47,4 +47,282 @@ img {
 
 /* !ВНИМАННИЕ Добавить псевдоэлемент для нахождения на странице */
 
-/*  */
+/* Общие стили кнопок */
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: 0;
+}
+
+button.button,
+a.button {
+  color: #ffffff;
+}
+
+/* Слайдер */
+
+.slider-inner {
+  list-style: none;
+}
+
+.slide-title {
+  color: #000000;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+/* Услуги компании */
+
+.service-catalog-list {
+  list-style: none;
+}
+
+.service-catalog-item-caption {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+/* Информация о комании */
+
+.company-caption {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.company-features-list {
+  list-style: none;
+}
+
+.company-features-caption {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.company-statistics-caption {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.company-statistics-list {
+  list-style: none;
+}
+
+.company-statistics-percentages {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 10.06px;
+}
+
+.company-statistics-property {
+  line-height: 18px;
+}
+
+/* Глобальные стили старницы каталога */
+
+.catalog-main-caption {
+  color: #000000;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+/* Фильтр товаров в катологе */
+
+.filters-form {
+  line-height: 20px;
+}
+
+.filter-item {
+  border: 0;
+}
+
+.filter-caption {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter-caption-price {
+  letter-spacing: 0.05px;
+}
+
+.price-filter-counter {
+  line-height: 22px;
+}
+
+.price-filter-counter input::placeholder {
+  font: inherit;
+  color: #283136;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.filters-form .button {
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+/* Сортировка в каталоге */
+
+.sorting-caption {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.sorting-list-type,
+.sorting-list-direction {
+  list-style: none;
+}
+
+.sorting-list-type a {
+  color: #000000;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/* .sorting-list-item-current */
+
+/* Каталог и карточки товаров */
+
+.main-catalog-list {
+  list-style: none;
+}
+
+.main-catalog-item-caption {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.main-catalog-item-description {
+  color: #666666;
+  line-height: 18px;
+}
+
+/* Пагинатор */
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-list a {
+  color: #000000;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/* Карта и адрес компании */
+
+.contacts-caption {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.contacts-description {
+  color: #666666;
+  line-height: 18px;
+}
+
+.contacts a.link-tel {
+  color: #666666;
+}
+
+/* Подвал */
+
+.social-list {
+  list-style: none;
+}
+
+.social-promo-caption {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.social-promo-description {
+  color: #444444;
+  line-height: 22px;
+}
+
+/* Модальное окно */
+
+.writeus-caption {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.writeus-form .writeus-name {
+  color: #000000;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+/* Форма модального окна */
+
+.writeus-form input {
+  font: inherit;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.writeus-form input::placeholder {
+  font: inherit;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+/* Дополнительные настройки */
+
+.visually-hidden:not(:focus):not(:active), input[type="checkbox"].visually-hidden, input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+:-ms-fullscreen, :root label.visually-hidden {
+  display:none; /* IE11 */
+}
