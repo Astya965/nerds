@@ -18,13 +18,48 @@ img {
   height: auto;
 }
 
+/* Глобальные стили страницы */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Глобальные стили шапки */
+
+.main-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+  background-color: #eeeeee;
+}
+
 /* Меню навигации */
 
+.site-navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
 .nav-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 640px;
   margin:0;
+  margin-left: 202px;
+  margin-bottom: 9px;
   padding: 0;
 
   list-style: none;
+}
+
+.nav-list-element {
+  width: 100px;
 }
 
 .nav-list a,
@@ -46,6 +81,15 @@ img {
 .nav-list a:active,
 .cart a:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.main-header-logo {
+  margin-top: 67px;
+  margin-left: 1px;
+}
+
+.cart {
+  align-self: flex-end;
 }
 
 /* !ВНИМАННИЕ Добавить псевдоэлемент для нахождения на странице */
