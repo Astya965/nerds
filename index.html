@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -32,13 +33,20 @@
                 <a class="nav-list-link" href="#">Контакты</a>
               </li>
             </ul>
+            <div class="cart">
+              <a class="cart-link" href="#">Корзина</a>
+            </div>
           </nav>
 
-          <div class="cart">
-            <a class="cart-link" href="#">Корзина</a>
-          </div>
+      </div>
 
-          <!-- <section class="main-slider">
+    </header>
+
+    <main class="main-content">
+
+        <section class="main-slider">
+          <div class="container">
+            <h2 class="visually-hidden">Наши преимущества</h2>
             <input class="wrapper-toggle visually-hidden" type="radio" id="wrapper-btn-1" name="toggle" checked>
             <input class="wrapper-toggle visually-hidden" type="radio" id="wrapper-btn-2" name="toggle">
             <input class="wrapper-toggle visually-hidden" type="radio" id="wrapper-btn-3" name="toggle">
@@ -47,10 +55,10 @@
               <label for="wrapper-btn-2"><span class="visually-hidden">Переключает на второе приемущество нашей студии: математичность</span></label>
               <label for="wrapper-btn-3"><span class="visually-hidden">Переключает на третье приемущество нашей студии: ночная разработка</span></label>
             </div>
-            <ul class="slider-inner">
+            <ul class="slider-list">
               <li class="slider-item slide" id="slider-item-1">
                 <h3 class="slide-caption">Долго, дорого, скрупулезно.</h3>
-                <p class="slide-description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                <p class="slide-description">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
                 <a class="button slider-button" href="#">Узнать больше</a>
               </li>
               <li class="slider-item slide" id="slider-item-2">
@@ -60,17 +68,12 @@
               </li>
               <li class="slider-item slide" id="slider-item-3">
                 <h3 class="slide-caption">Только ночь, только хардкор</h3>
-                <p class="slide-description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+                <p class="slide-description">Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
                 <a class="button slider-button" href="#">Узнать больше</a>
               </li>
             </ul>
-          </section> -->
-
-      </div>
-
-    </header>
-
-    <main class="main-content">
+          </div>
+        </section>
 
       <div class="container">
 
@@ -80,49 +83,58 @@
               <img src="img/service1.jpg" width="300" height="146" alt="Ноутбук с открытым сайтом на экране">
               <h3 class="service-catalog-item-caption">Веб-сайты</h3>
               <p class="service-catalog-item-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-              <a class="button" href="#">Заказать</a>
+              <a class="button service-catalog-button" href="#">Заказать</a>
             </li>
             <li class="service-catalog-item">
               <img src="img/service2.jpg" width="300" height="146" alt="Айфон и смартфон с открытыми приложениями">
               <h3 class="service-catalog-item-caption">Приложения</h3>
               <p class="service-catalog-item-description">Покорите топ-10 приложений в AppStore и Google Play</p>
-              <a class="button" href="#">Заказать</a>
+              <a class="button service-catalog-button" href="#">Заказать</a>
             </li>
             <li class="service-catalog-item">
               <img src="img/service3.jpg" width="300" height="146" alt="Графики на стенде презентаций">
               <h3 class="service-catalog-item-caption">Презентации</h3>
               <p class="service-catalog-item-description">Вы даже не подозреваете, насколько вы изумительны!</p>
-              <a class="button" href="#">Заказать</a>
+              <a class="button service-catalog-button" href="#">Заказать</a>
             </li>
           </ul>
         </section>
 
         <section class="company-information">
 
-          <h2 class="company-caption">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
-          <p class="company-description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <div class="company-information-left">
+            <h2 class="company-caption">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+            <p class="company-description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
 
-          <h3 class="company-features-caption">Выполняем заказы на разработку:</h3>
-          <ul class="company-features-list">
-            <li class="company-features-item">Веб-сайтов любой сложности</li>
-            <li class="company-features-item">Мобильных приложений для iOS и Android</li>
-            <li class="company-features-item">Слайдшоу и видео для корпоративных презентаций</li>
-          </ul>
+            <h3 class="company-features-caption">Выполняем заказы на разработку:</h3>
+            <ul class="company-features-list">
+              <li class="company-features-item">Веб-сайтов любой сложности</li>
+              <li class="company-features-item">Мобильных приложений для iOS и Android</li>
+              <li class="company-features-item">Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+          </div>
 
-          <img src="img/nerds-main.jpg" width="360" height="208" alt="Яркий стильный логотип компании Неродс">
+          <div class="company-information-left">
+            <img class="company-information-logo" src="img/nerds-main.jpg" width="360" height="208" alt="Яркий стильный логотип компании Неродс">
 
-          <div class="company-statistics">
-            <h3 class="company-statistics-caption">С 2004 года Любим точность во всем:</h3>
-            <dl class="company-statistics-list">
-              <dt class="company-statistics-percentages">146%</dt>
-              <dd class="company-statistics-property">Уровень самоотдачи</dd>
-
-              <dt class="company-statistics-percentages">100%</dt>
-              <dd class="company-statistics-property">Соблюдение сроков</dd>
-
-              <dt class="company-statistics-percentages">50%</dt>
-              <dd class="company-statistics-property">Минимальная предоплата</dd>
-            </dl>
+            <div class="company-statistics">
+              <h3 class="company-statistics-caption">С 2004 года Любим точность во всем:</h3>
+              <div class="company-statistics-list">
+                <div class="company-statistics-column company-statistics-column-1"></div>
+                <div class="company-statistics-column company-statistics-column-2"></div>
+                <div class="company-statistics-column company-statistics-column-3"></div>
+                <ul class="company-statistics-percentages">
+                  <li class="company-statistics-item">146<sup class="company-statistics-item-per">%</sup></li>
+                  <li class="company-statistics-item">100<sup class="company-statistics-item-per">%</sup></li>
+                  <li class="company-statistics-item">50<sup class="company-statistics-item-per">%</sup></li>
+                </ul>
+                <ul class="company-statistics-property">
+                  <li class="company-statistics-item">Уровень самоотдачи</li>
+                  <li class="company-statistics-item">Соблюдение сроков</li>
+                  <li class="company-statistics-item">Минимальная предоплата</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
         </section>
@@ -135,32 +147,32 @@
             <li class="company-portfolio-item">
               <a class="company-portfolio-link" href="https://htmlacademy.ru/intensive/htmlcss">
                 <span class="visually-hidden">Сайт HTML Academy</span>
-                <img src="img/logo1.png" width="199" height="68" alt="Логотип сайта HTML Academy">
+                <img class="portfolio-link-academy" src="img/logo1.png" width="199" height="68" alt="Логотип сайта HTML Academy">
               </a>
             </li>
             <li class="company-portfolio-item">
               <a class="company-portfolio-link" href="#">
                 <span class="visually-hidden">Сайт Barbershop Borodinski</span>
-                <img src="img/logo2.png" width="209" height="90" alt="Логотип сайта Barbershop Borodinski">
+                <img class="portfolio-link-barbershop" src="img/logo2.png" width="209" height="90" alt="Логотип сайта Barbershop Borodinski">
               </a>
             </li>
             <li class="company-portfolio-item">
               <a class="company-portfolio-link" href="#">
                 <span class="visually-hidden">Сайт Pink</span>
-                <img src="img/logo3.png" width="185" height="52" alt="Логотип сайта Pink">
+                <img class="portfolio-link-pink" src="img/logo3.png" width="185" height="52" alt="Логотип сайта Pink">
               </a>
             </li>
             <li class="company-portfolio-item">
               <a class="company-portfolio-link" href="#">
                 <span class="visually-hidden">Сайт Mishka</span>
-                <img src="img/logo4.png" width="173" height="84" alt="Логотип сайта Mishka">
+                <img class="portfolio-link-mishka" src="img/logo4.png" width="173" height="84" alt="Логотип сайта Mishka">
               </a>
             </li>
           </ul>
 
         </section>
 
-    </div>
+      </div>
 
       <section class="company-contacts">
 
@@ -168,7 +180,7 @@
           <div class="contacts">
             <h3 class="contacts-caption">Nёrds design studio</h3>
             <p class="contacts-description">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-            <p class="contacts-description">><a class="link-tel" href="tel:+7812757575">тел. +7 (812) 275-75-75</a></p>
+            <p class="contacts-description"><a class="link-tel" href="tel:+7812757575">тел. +7 (812) 275-75-75</a></p>
             <a class="button js-button" href="writeus.html">Напишите нам</a>
           </div>
         </div>
@@ -189,8 +201,8 @@
             <li class="social-item fb">
               <a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a>
             </li>
-            <li class="social-item">
-              <a class="social-button instagram" href="#"><span class="visually-hidden">Инстаграм</span></a>
+            <li class="social-item insta">
+              <a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span></a>
             </li>
           </ul>
         </div>
@@ -204,27 +216,34 @@
 
     </footer>
 
-  </div>
+  <section class="writeus">
 
-  <div class="modal-window writeus">
+    <div class="modal-window">
+      <h2 class="writeus-caption">Напишите нам</h2>
+      <button class="modal-close feedback-modal-close" type="button"><span class="visually-hidden">Закрыть окно обратной связи</span>x</button>
 
-    <h2 class="writeus-caption">Напишите нам</h2>
-    <button class="modal-close feedback-modal-close" type="button"><span class="visually-hidden">Закрыть окно обратной связи</span>x</button>
+      <form class="writeus-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="writeus-form-item">
+          <label for="writeus-name">Ваше имя:</label>
+          <input type="text" id="writeus-name" name="writeus-name" placeholder="Имя Фамилия">
+        </div>
+        <div class="writeus-form-item">
+          <label for="writeus-email">Ваш e-mail:</label>
+          <input type="email" id="writeus-email" name="writeus-email" placeholder="email@example.com">
+        </div>
+        <div class="writeus-form-item">
+          <label for="writeus-textarea">Текст письма:</label>
+          <textarea id="writeus-textarea" name="writeus-textarea" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="button" type="submit">Отправить</button>
+      </form>
 
-    <form class="writeus-form" action="https://echo.htmlacademy.ru" method="post">
+    </div>
 
-      <label for="writeus-name">Ваше имя:</label>
-      <input type="text" id="writeus-name" name="writeus-name" placeholder="Имя Фамилия">
-      <label for="writeus-email">Ваш e-mail:</label>
-      <input type="email" id="writeus-email" name="writeus-email" placeholder="email@example.com">
-      <label for="writeus-textarea">Текст письма:</label>
-      <textarea id="writeus-textarea" name="writeus-textarea" placeholder="В свободной форме"></textarea>
+  </section>
+  <div class="modal-overlay"></div>
 
-      <button class="button" type="submit">Отправить</button>
-
-    </form>
-
-  </div>
+  <script src="js/script.js"></script>
 
 </body>
 
